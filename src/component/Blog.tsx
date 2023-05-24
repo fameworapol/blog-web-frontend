@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import NavbarComponent from "./NavbarComponents";
+import NavbarComponent from "./Navbar";
 interface SingleBlog{
     author: string,
     content:string,
